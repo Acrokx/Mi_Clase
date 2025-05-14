@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cartas Yu-Gi-Oh! - Master Peace</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans text-gray-800">
+
+  <!-- Encabezado -->
+  <header class="bg-yellow-900 text-white shadow">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Yu-Gi-Oh! Legends</h1>
+      <nav class="space-x-4">
+        <a href="#inicio" class="hover:text-yellow-300">Inicio</a>
+        <a href="#info" class="hover:text-yellow-300">Características</a>
+        <a href="#contacto" class="hover:text-yellow-300">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Sección principal -->
+  <section id="inicio" class="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+    <div>
+      <h2 class="text-4xl font-bold mb-4 text-yellow-800">¡Invoca el poder de Master Peace!</h2>
+      <p class="text-lg text-gray-700 mb-6">
+        Descubre el poder legendario de las cartas Dracoverlord. Una colección exclusiva para verdaderos duelistas. 
+        ¡Haz tu jugada maestra y domina el campo!
+      </p>
+      <a href="#contacto" class="inline-block bg-yellow-800 text-white px-6 py-2 rounded hover:bg-yellow-900">
+        ¡Solicita más información!
+      </a>
+    </div>
+    <div>
+      <img src="master.jpg" alt="Master Peace, the True Dracoslaying King" class="rounded shadow-lg" />
+    </div>
+  </section>
+
+  <!-- Tarjetas informativas -->
+  <section id="info" class="max-w-7xl mx-auto px-4 py-12">
+    <h3 class="text-3xl font-bold text-center mb-8 text-yellow-800">¿Por qué coleccionar estas cartas?</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded shadow text-center">
+        <h4 class="text-xl font-semibold mb-2 text-yellow-700">Poder Estratégico</h4>
+        <p class="text-gray-600">Cartas con efectos únicos que pueden cambiar el rumbo de cualquier duelo.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow text-center">
+        <h4 class="text-xl font-semibold mb-2 text-yellow-700">Valor de Colección</h4>
+        <p class="text-gray-600">Master Peace es una carta buscada por coleccionistas en todo el mundo.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow text-center">
+        <h4 class="text-xl font-semibold mb-2 text-yellow-700">Edición Limitada</h4>
+        <p class="text-gray-600">Disponible por tiempo limitado. ¡No te quedes sin la tuya!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formulario de contacto -->
+  <section id="contacto" class="bg-white py-12">
+    <div class="max-w-3xl mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center mb-6 text-yellow-800">Contáctanos para más detalles</h3>
+      <form class="space-y-6">
+        <div>
+          <label class="block mb-1 font-medium">Nombre</label>
+          <input type="text" class="w-full border border-gray-300 rounded px-4 py-2" required />
+        </div>
+        <div>
+          <label class="block mb-1 font-medium">Correo electrónico</label>
+          <input type="email" class="w-full border border-gray-300 rounded px-4 py-2" required />
+        </div>
+        <div>
+          <label class="block mb-1 font-medium">Mensaje</label>
+          <textarea class="w-full border border-gray-300 rounded px-4 py-2" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="bg-yellow-800 text-white px-6 py-2 rounded hover:bg-yellow-900">
+          Enviar mensaje
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-yellow-900 text-white text-center py-4">
+    &copy; 2025 Yu-Gi-Oh! Legends. No oficial. Solo para fines demostrativos.
+  </footer>
+
+</body>
+</html>
